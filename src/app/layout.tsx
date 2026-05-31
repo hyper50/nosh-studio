@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Nosh Studio — Carpintería & Cocinas a Medida en Marbella",
+  title: "NOSH STUDIO — Carpintería & Cocinas a Medida",
   description:
-    "Estudio de carpintería y cocinas a medida en Marbella. Diseño, fabricación e instalación para promotoras y constructoras.",
+    "Precisión constructiva y sensibilidad material. Diseño, fabricación e instalación de cocinas y carpintería a medida en Marbella.",
   keywords: [
-    "cocinas a medida",
+    "cocinas a medida Marbella",
     "carpintería Marbella",
-    "cocinas de diseño",
-    "kitchen design Marbella",
-    "bespoke kitchens",
+    "bespoke kitchens Marbella",
+    "custom kitchen design",
+    "NOSH STUDIO",
   ],
   openGraph: {
-    title: "Nosh Studio — Bespoke Kitchens & Carpentry",
+    title: "NOSH STUDIO — Bespoke Kitchens & Carpentry",
     description:
-      "Custom kitchen design, manufacturing and installation in Marbella.",
+      "Crafted with quiet precision. Custom kitchen design, manufacturing and installation in Marbella.",
     type: "website",
   },
 };
@@ -35,8 +35,13 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+Condensed:wght@300;400&display=swap"
           rel="stylesheet"
+        />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="/logos/NOSH_Logo_Monograma_tecnico_Dark.svg"
         />
       </head>
       <body className="antialiased">{children}</body>
